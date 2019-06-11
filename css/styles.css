@@ -1,0 +1,84 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+header nav a.navbar-brand{
+	font-family: 'Walter Turncoat', cursive;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	padding-left: 30px;
+}
+header nav{
+	background: #efdd41;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+}
+article h1{
+	color: black;
+}
+article{
+	padding: 10px 45px;
+	color: white;
+}
+p.chicken, p.beef, p.sushi, a{
+	color: white;
+}
+p.chicken, p.beef, p.sushi, a:visited{
+	color: white;
+}
+
+article h3.chicken{
+	text-align: center;
+	background-color: #503ff1;
+}
+article h3.beef{
+	text-align: center;
+	background-color: #e84c4f;
+}
+article h3.sushi{
+	text-align: center;
+	background-color: #409c3b;
+}
+div .col-md-4{
+	background-color: #503ff1;
+	border-right: 10px solid white;
+}
+div .beef{
+	background-color: #e84c4f;
+}
+div .sushi{
+	background-color: #409c3b;
+}
+
+article p .chicken, .beef,.sushi{
+	margin-top: 0;
+	padding: 0 auto;
+}
+article h3.chicken, h3.beef, h3.sushi{
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+header div ul li{
+	background: #330000;
+	margin-left: -16px;
+	margin-right: -16px;
+	margin-bottom: -8px;
+}
+@media (min-width: 576px) and (max-width: 767px){
+	div .col-sm-12{
+		border-top: 10px solid white;
+	}
+}
+@media (max-width: 575px){
+	div .col-md-4{
+		border-bottom: 10px solid white;
+	}
+	header nav{
+		border-bottom: none;
+	}
+}
