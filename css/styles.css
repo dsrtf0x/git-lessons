@@ -14,8 +14,8 @@ header nav a.navbar-brand{
 }
 header nav{
 	background: #efdd41;
-	border-bottom: 2px solid black;
-	border-top: 2px solid black;
+	border-bottom: 3px solid black;
+	border-top: 3px solid black;
 }
 article h1{
 	color: black;
@@ -25,7 +25,7 @@ article{
 	color: white;
 }
 p.chicken, p.beef, p.sushi, a{
-	color: white;
+	color: #ccc;
 }
 p.chicken, p.beef, p.sushi, a:visited{
 	color: white;
