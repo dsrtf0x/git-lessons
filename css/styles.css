@@ -45,7 +45,7 @@ article h3.sushi{
 }
 div .col-md-4{
 	background-color: #503ff1;
-	border-right: 10px solid white;
+	border-right: 10px solid #ccc;
 }
 div .beef{
 	background-color: #e84c4f;
